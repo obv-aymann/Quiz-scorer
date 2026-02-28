@@ -1,8 +1,3 @@
-"""
-Test File for Quiz Scorer
-Created by: Ayman
-"""
-
 import unittest
 from quiz_scorer import (
     calculate_total,
@@ -31,4 +26,5 @@ class TestQuizScorer(unittest.TestCase):
 
 
 if __name__ == "__main__":
+
     unittest.main()
