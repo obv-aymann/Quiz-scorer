@@ -1,6 +1,5 @@
 
 def calculate_total(scores):
-    """Return the total of all scores."""
     return sum(scores)
 
 
@@ -35,4 +34,5 @@ if __name__ == "__main__":
     print("Total:", calculate_total(student_scores))
     print("Average:", calculate_average(student_scores))
     print("Highest:", get_highest(student_scores))
+
     print("Lowest:", get_lowest(student_scores))
